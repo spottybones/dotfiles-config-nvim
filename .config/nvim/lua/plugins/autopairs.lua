@@ -1,6 +1,6 @@
 return {
   "windwp/nvim-autopairs",
-  wants = "nvim-treesitter",
+  dependencies = { "nvim-treesitter" },
   config = function()
     local npairs = require("nvim-autopairs")
     npairs.setup {

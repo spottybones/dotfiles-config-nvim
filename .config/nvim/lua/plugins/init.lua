@@ -3,7 +3,7 @@ return {
   "MunifTanjim/nui.nvim",
   {
     "nvim-tree/nvim-web-devicons",
-    config = { default = true },
+    opts = { default = true },
   },
   { "nacro90/numb.nvim", event = "BufReadPre", config = true },
   {
@@ -20,7 +20,7 @@ return {
     "rcarriga/nvim-notify",
     event = "VeryLazy",
     enabled = true,
-    config = { default = true },
+    opts = { default = true },
   },
   {
     "sindrets/diffview.nvim",
@@ -30,7 +30,7 @@ return {
   {
     "TimUntersberger/neogit",
     cmd = "Neogit",
-    config = {
+    opts = {
       integrations = { diffview = true },
     },
     keys = {
