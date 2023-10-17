@@ -44,6 +44,7 @@ luac.out
 plugin/packer_compiled.lua
 lua/packer_compiled.lua
 lazy-lock.json
+lazyvim.json
 .luarc.json
 
 # LazyVim Ignores
