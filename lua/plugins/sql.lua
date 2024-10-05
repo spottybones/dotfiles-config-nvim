@@ -9,7 +9,7 @@ return {
   },
   -- use sqlfluff as linter and formatter for SQL files
   {
-    "williambowman/mason.nvim",
+    "williamboman/mason.nvim",
     opts = { ensure_installed = { "sqlfluff" } },
   },
   {
